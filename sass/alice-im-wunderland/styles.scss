@@ -96,10 +96,8 @@ main {
       margin-top: -3px;
       padding: 0.5rem;
       transform: rotate(-1.2deg);
-      @media screen and (max-width: 599px) {
-        span {
-          @include visually-hidden;
-        }
+      a {
+        color: inherit;
       }
     }
     nav {
